@@ -1,0 +1,15 @@
+[project]
+name = "birthday-calendar"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "icalendar>=6.1.0",
+    "polars>=1.16.0",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.8.1",
+]
